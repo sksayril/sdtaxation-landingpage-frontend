@@ -1,0 +1,124 @@
+.trusted-companies {
+  padding: 4rem 0;
+  background: linear-gradient(to right, #fff5f2, #fff9f5);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+  background: linear-gradient(45deg, #ff6b6b, #ff8e53);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.partners-container {
+  position: relative;
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.gradient-overlay.left {
+  left: 0;
+  background: linear-gradient(to right, #fff5f2 0%, transparent 100%);
+}
+
+.gradient-overlay.right {
+  right: 0;
+  background: linear-gradient(to left, #fff5f2 0%, transparent 100%);
+}
+
+.logo-scroll-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 1rem 0;
+}
+
+.logo-track {
+  display: flex;
+  gap: 3rem;
+  padding: 1rem;
+}
+
+.logo-item {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+  min-width: 150px;
+}
+
+.logo-item img {
+  height: 50px;
+  object-fit: contain;
+  filter: grayscale(0%);
+  transition: all 0.3s ease;
+}
+
+.company-name {
+  position: absolute;
+  bottom: -25px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #666;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.logo-item:hover {
+  transform: scale(1.1);
+}
+
+.logo-item:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .section-subtitle {
+    font-size: 1rem;
+  }
+  
+  .logo-item {
+    min-width: 120px;
+  }
+  
+  .logo-item img {
+    height: 40px;
+  }
+}
