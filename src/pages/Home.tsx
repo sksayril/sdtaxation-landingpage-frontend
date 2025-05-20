@@ -9,11 +9,11 @@ import 'swiper/css';
 const tools = [
   { 
     name: 'QuickBooks', 
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/7/7d/Quickbooks-Logo.png'
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC2pnySbNyBk4MZiAXNn4Yk_6QYWheSWiRCA&s'
   },
   { 
     name: 'Tally', 
-    logo: 'https://tallysolution.com/assets/images/tally-logo.png'
+    logo: 'https://w7.pngwing.com/pngs/251/36/png-transparent-bhopal-tally-solutions-tally-institute-of-learning-training-tally-miscellaneous-text-class-thumbnail.png'
   },
   { 
     name: 'Zoho Payroll', 
@@ -21,7 +21,7 @@ const tools = [
   },
   { 
     name: 'Cleartax', 
-    logo: 'https://blog.clear.in/wp-content/uploads/2021/01/clear_tax_logo.png'
+    logo: 'https://avatars.githubusercontent.com/u/6012316?s=200&v=4'
   },
   { 
     name: 'SAP', 
@@ -29,11 +29,11 @@ const tools = [
   },
   { 
     name: 'Xero', 
-    logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Xero_software_logo.svg/1280px-Xero_software_logo.svg.png'
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsKt2sQNMbPpdfUCjkTEEP1N8lm8c8GUX94w&s'
   },
   { 
     name: 'ADP', 
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/8/8c/ADP_logo.svg'
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrWd97EL3YyU22QWke68_bxDwg05LmrtAUag&s'
   },
 ];
 
@@ -258,7 +258,7 @@ const Home = () => {
               className="relative"
             >
               <img
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3"
+                src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202405/664c865cc7f08-the-income-tax-act-allows-deductions-for-investments--savings--and-expenses-in-a-financial-year-that-213242968-16x9.jpg"
                 alt="Financial Compliance"
                 className="rounded-lg shadow-xl"
               />

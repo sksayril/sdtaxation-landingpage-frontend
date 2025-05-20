@@ -41,10 +41,10 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {[
-            { icon: Phone, title: 'Phone', content: '+91 123-456-7890', delay: 0 },
-            { icon: Mail, title: 'Email', content: 'info@digitalmarketing.com', delay: 0.1 },
-            { icon: MapPin, title: 'Location', content: 'Gantar Cricket Playground, West Bengal', delay: 0.2 },
-            { icon: Clock, title: 'Working Hours', content: 'Mon - Fri: 9AM to 6PM', delay: 0.3 }
+            { icon: Phone, title: 'Phone', content: '+91 99935 56791', delay: 0 },
+            { icon: Mail, title: 'Email', content: 'info@sdtaxation.com', delay: 0.1 },
+            { icon: MapPin, title: 'Location', content: 'Chakker Road Near By shiv mandir Betul (madhya pradesh) 460001', delay: 0.2 },
+            { icon: Clock, title: 'Working Hours', content: 'Mon - Sunday: 9AM to 6PM', delay: 0.3 }
           ].map((item, index) => (
             <motion.div
               key={index}
@@ -170,7 +170,7 @@ const Contact = () => {
           >
             <div className="h-full w-full min-h-[600px]">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14746.03238421127!2d88.09976470523725!3d23.192338783593474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8577625edb5ed%3A0xc2848793a9fe61c6!2sGantar%20Cricket%20Playground!5e0!3m2!1sen!2sin!4v1739947008627!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29613.731270860793!2d77.87973734708802!3d21.906993662792452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6099355fd39f5%3A0xfcd7f3a44fc36322!2sBetul%2C%20Madhya%20Pradesh%20460001!5e0!3m2!1sen!2sin!4v1747744714057!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -186,5 +186,4 @@ const Contact = () => {
     </div>
   );
 };
-
 export default Contact;
