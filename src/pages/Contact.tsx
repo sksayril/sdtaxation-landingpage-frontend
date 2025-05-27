@@ -44,7 +44,7 @@ const Contact = () => {
             { icon: Phone, title: 'Phone', content: '+91 99935 56791', delay: 0 },
             { icon: Mail, title: 'Email', content: 'info@sdtaxation.com', delay: 0.1 },
             { icon: MapPin, title: 'Location', content: 'Chakker Road Near By shiv mandir Betul (madhya pradesh) 460001', delay: 0.2 },
-            { icon: Clock, title: 'Working Hours', content: 'Mon - Sunday: 9AM to 6PM', delay: 0.3 }
+            { icon: Clock, title: 'Working Hours', content: 'Mon - Friday: 10AM to 7PM', delay: 0.3 }
           ].map((item, index) => (
             <motion.div
               key={index}

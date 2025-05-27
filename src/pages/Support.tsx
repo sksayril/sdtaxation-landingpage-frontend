@@ -174,11 +174,11 @@ const Support = () => {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Phone className="w-5 h-5 text-orange-600 mr-3" />
-                  <span className="text-gray-700">+91 1234 567 890</span>
+                  <span className="text-gray-700">+91 99935 56791</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="w-5 h-5 text-orange-600 mr-3" />
-                  <span className="text-gray-700">support@sdtaxation.com</span>
+                  <span className="text-gray-700">sdtaxtion@gmail.com</span>
                 </div>
                 <div className="flex items-center">
                   <HelpCircle className="w-5 h-5 text-orange-600 mr-3" />

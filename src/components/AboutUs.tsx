@@ -20,7 +20,7 @@ const AboutUs = () => {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              About S.D. Taxation
+              About S.D. Taxation Associate
             </h2>
             <p className="text-xl text-gray-600 mb-8">
               We're a team of dedicated financial professionals specializing in taxation, 

@@ -1,40 +1,44 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { motion, useTransform, useAnimation, useInView } from 'framer-motion';
 import { Play, CheckCircle, TrendingUp, Users, Target, Globe, Mail } from 'lucide-react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper/modules';
-import TrustedCompanies from '../components/TrustedCompanies';
+// import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Autoplay } from 'swiper/modules';
+// import TrustedCompanies from '../components/TrustedCompanies';
 import 'swiper/css';
 
 const tools = [
   { 
-    name: 'QuickBooks', 
-    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC2pnySbNyBk4MZiAXNn4Yk_6QYWheSWiRCA&s'
+    name: 'SD Payroll', 
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU2wgeX-kkynwhKc04HyZDkuIDloB2GRluzQ&s'
   },
   { 
-    name: 'Tally', 
-    logo: 'https://w7.pngwing.com/pngs/251/36/png-transparent-bhopal-tally-solutions-tally-institute-of-learning-training-tally-miscellaneous-text-class-thumbnail.png'
+    name: 'SD Accounting', 
+    logo: 'https://bongsrey.sgp1.digitaloceanspaces.com/library/32781/images/671b5b516abf9.png'
   },
   { 
-    name: 'Zoho Payroll', 
-    logo: 'https://www.zohowebstatic.com/sites/default/files/zoho-logo-2x.png'
+    name: 'SD HR Software', 
+    logo: 'https://c8.alamy.com/comp/2T1PCEE/hr-letter-logo-monogram-simple-hexagon-shield-shape-with-triangle-crown-isolated-style-design-template-2T1PCEE.jpg'
   },
   { 
-    name: 'Cleartax', 
-    logo: 'https://avatars.githubusercontent.com/u/6012316?s=200&v=4'
+    name: 'SD CRM Software', 
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9U_VgSYUwU9o2_0N5mKrWviFNR2bGi-Mb7g&s'
+  },{ 
+    name: 'SD Payroll', 
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU2wgeX-kkynwhKc04HyZDkuIDloB2GRluzQ&s'
   },
   { 
-    name: 'SAP', 
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg'
+    name: 'SD Accounting', 
+    logo: 'https://bongsrey.sgp1.digitaloceanspaces.com/library/32781/images/671b5b516abf9.png'
   },
   { 
-    name: 'Xero', 
-    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsKt2sQNMbPpdfUCjkTEEP1N8lm8c8GUX94w&s'
+    name: 'SD HR Software', 
+    logo: 'https://c8.alamy.com/comp/2T1PCEE/hr-letter-logo-monogram-simple-hexagon-shield-shape-with-triangle-crown-isolated-style-design-template-2T1PCEE.jpg'
   },
   { 
-    name: 'ADP', 
-    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrWd97EL3YyU22QWke68_bxDwg05LmrtAUag&s'
+    name: 'SD CRM Software', 
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9U_VgSYUwU9o2_0N5mKrWviFNR2bGi-Mb7g&s'
   },
+  
 ];
 
 const stats = [
@@ -279,7 +283,7 @@ const Home = () => {
       </motion.section>
 
       {/* Trusted Companies Section */}
-      <TrustedCompanies />
+      {/* <TrustedCompanies /> */}
 
       {/* Why Choose Us Section */}
       <motion.section 

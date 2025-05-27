@@ -32,7 +32,7 @@ const industries = [
     icon: <GraduationCap className="w-12 h-12 text-green-500" />,
     benefits: [
       'Educational institution tax exemptions',
-      'Scholarship fund management',
+      
       'Faculty tax planning',
       'Educational grants compliance'
     ]

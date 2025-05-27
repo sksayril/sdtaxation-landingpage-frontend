@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <img src={billingPandaLogo} alt="S.D. Taxation Logo" className="h-12 w-12 object-contain" />
-              <h3 className="text-2xl font-bold text-white">S.D. Taxation</h3>
+              <h3 className="text-2xl font-bold text-white">S.D. Taxation Associate</h3>
             </div>
             <p className="text-sm">
               Providing expert taxation, HR, and payroll solutions since 2010.
@@ -107,18 +107,18 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center">
                 <MapPin size={16} className="mr-2 text-orange-500" />
-                <span>123 Finance Avenue, Mumbai, 400001</span>
+                <span>Chakker Road Near By shiv mandir Betul (madhya pradesh) 460001</span>
               </li>
               <li className="flex items-center">
                 <Phone size={16} className="mr-2 text-orange-500" />
-                <a href="tel:+919876543210" className="hover:text-orange-500 transition-colors">
-                  +91 9876 543 210
+                <a href="tel:+919993556791" className="hover:text-orange-500 transition-colors">
+                 +91 99935 56791
                 </a>
               </li>
               <li className="flex items-center">
                 <Mail size={16} className="mr-2 text-orange-500" />
                 <a href="mailto:info@sdtaxation.com" className="hover:text-orange-500 transition-colors">
-                  info@sdtaxation.com
+sdtaxtion@gmail.com
                 </a>
               </li>
             </ul>
