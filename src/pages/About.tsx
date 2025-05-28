@@ -5,7 +5,7 @@ import { ChevronRight, Users, Target, Award, TrendingUp, CheckCircle, Star } fro
 
 const companyInfo = {
   founded: 2010,
-  description: `S.D. Taxation Associates is a trusted financial services firm that has been supporting businesses with expert taxation, compliance, and financial management solutions since 2010. Our team of dedicated professionals brings years of experience in taxation, HR, and payroll services to deliver outstanding results for our clients.`,
+  description: `S.D. Taxation Associate is a trusted financial services firm that has been supporting businesses with expert taxation, compliance, and financial management solutions since 2010. Our team of dedicated professionals brings years of experience in taxation, HR, and payroll services to deliver outstanding results for our clients.`,
   mission: `Our mission is to simplify taxation and compliance for businesses of all sizes, providing reliable financial guidance that enables sustainable growth and peace of mind.`,
   values: [
     'Accuracy & Precision',
@@ -139,7 +139,7 @@ const About = () => {
               transition={{ duration: 0.8 }}
             >
               <h1 className="text-4xl font-bold text-gray-900 mb-6">
-                About S.D. Taxation Associates
+                About S.D. Taxation Associate
               </h1>
               <p className="text-xl text-gray-600 mb-8">
                 {companyInfo.description}

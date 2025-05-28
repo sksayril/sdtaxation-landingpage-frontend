@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { ArrowRight, CheckCircle, Star, Zap, Target, Users, BarChart, FileText } from 'lucide-react';
+import { ArrowRight, CheckCircle, Star, Zap, Target, Users, BarChart, FileText,CreditCard } from 'lucide-react';
 
 const taxServices = [
   {
@@ -107,7 +107,20 @@ const taxServices = [
     ],
     color: 'from-green-500 to-teal-600',
     iconBg: 'bg-green-100'
-  }
+  },
+  {
+  title: 'Fee Management System',
+  description: 'Streamline your fee collection system through online fee collection from parents and automated electronic fee receipts generation helping the school in reconciliation through our transparent reporting system.',
+  icon: <CreditCard className="w-12 h-12 text-blue-600" />,
+  features: [
+    'Online Fee Collection',
+    'Automated Receipt Generation',
+    'Transparent Reporting',
+    'Reconciliation Support'
+  ],
+  color: 'from-blue-400 to-indigo-500',
+  iconBg: 'bg-blue-100'
+}
 ];
 
 const Services = () => {
