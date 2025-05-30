@@ -4,18 +4,7 @@ import { useInView } from 'react-intersection-observer';
 import { ArrowRight,  MapPin, Clock, Upload, CheckCircle, Search } from 'lucide-react';
 
 const jobOpenings = [
-  {
-    title: 'Senior Tax Consultant',
-    location: 'Mumbai, Maharashtra',
-    type: 'Full-Time',
-    description: 'Experienced tax professional needed to handle high-value client portfolios and provide expert taxation advice.',
-    requirements: [
-      'CA/CMA with 5+ years of taxation experience',
-      'Expertise in direct and indirect taxation',
-      'Experience with corporate tax planning',
-      'Strong client management skills'
-    ]
-  },
+  
   {
     title: 'GST Compliance Officer',
     location: 'Delhi, NCR',

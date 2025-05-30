@@ -128,7 +128,7 @@ sdtaxtion@gmail.com
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm">
-            &copy; {new Date().getFullYear()} S.D. Taxation Associates. All rights reserved.
+            &copy; {new Date().getFullYear()} S.D. Taxation Associate. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0">
             <button
