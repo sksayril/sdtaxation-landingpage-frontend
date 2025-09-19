@@ -26,8 +26,8 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center space-x-2" onClick={handleNavigation}>
-              <img src={billingPandaLogo} alt="S.D. Taxation Logo" className="h-12 w-12 object-contain" />
-              <span className="text-2xl font-bold text-orange-600">S.D. Taxation Associate</span>
+              <img src={billingPandaLogo} alt="S.D. Taxation Logo" className="h-18 w-16 object-contain" />
+              {/* <span className="text-2xl font-bold text-orange-600">S.D. Taxation Associate</span> */}
             </Link>
           </div>
           
