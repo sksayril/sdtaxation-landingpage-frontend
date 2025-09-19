@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin, ArrowUpRight } from 'lucide-react';
-import billingPandaLogo from '../assets/billing-panda-logo.svg';
+import billingPandaLogo from '/sdtaxationlogoremovebg.png';
 
 const Footer = () => {
   const scrollToTop = () => {

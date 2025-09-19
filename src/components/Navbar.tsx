@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, LogIn } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
-import billingPandaLogo from '../assets/billing-panda-logo.svg';
+import billingPandaLogo from '/sdtaxationlogoremovebg.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
