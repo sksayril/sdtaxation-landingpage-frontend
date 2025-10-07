@@ -3,58 +3,58 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { ArrowRight,  MapPin, Clock, Upload, CheckCircle, Search } from 'lucide-react';
 
-const jobOpenings = [
+// const jobOpenings = [
   
-  {
-    title: 'GST Compliance Officer',
-    location: 'Delhi, NCR',
-    type: 'Full-Time',
-    description: 'Responsible for ensuring complete GST compliance for our clients across multiple industries.',
-    requirements: [
-      'CA/CMA with 3+ years in GST compliance',
-      'Experience with GST filing and reconciliation',
-      'Knowledge of GST audit procedures',
-      'Familiar with e-way bill requirements'
-    ]
-  },
-  {
-    title: 'Payroll Administrator',
-    location: 'Bangalore, Karnataka',
-    type: 'Full-Time',
-    description: 'Handle end-to-end payroll processing and ensure compliance with all statutory requirements.',
-    requirements: [
-      'Bachelors degree in accounting or finance',
-      '3+ years of payroll processing experience',
-      'Experience with payroll software',
-      'Knowledge of PF, ESI, and Professional Tax'
-    ]
-  },
-  {
-    title: 'Tax Filing Specialist',
-    location: 'Hyderabad, Telangana',
-    type: 'Full-Time',
-    description: 'Process income tax returns for individuals and businesses with attention to detail and accuracy.',
-    requirements: [
-      'Bachelors degree in accounting or finance',
-      '2+ years of tax filing experience',
-      'Knowledge of latest tax regulations',
-      'Experience with tax filing software'
-    ]
-  },
-  {
-    title: 'Corporate Tax Advisor',
-    location: 'Remote',
-    type: 'Contract',
-    description: 'Provide strategic tax planning advice to corporate clients to optimize their tax positions.',
-    requirements: [
-      'CA/CMA with specialization in corporate taxation',
-      '5+ years of corporate tax advisory experience',
-      'Knowledge of international tax practices',
-      'Strong analytical and problem-solving skills'
-    ]
-  }
-];
-
+//   {
+//     title: 'GST Compliance Officer',
+//     location: 'Delhi, NCR',
+//     type: 'Full-Time',
+//     description: 'Responsible for ensuring complete GST compliance for our clients across multiple industries.',
+//     requirements: [
+//       'CA/CMA with 3+ years in GST compliance',
+//       'Experience with GST filing and reconciliation',
+//       'Knowledge of GST audit procedures',
+//       'Familiar with e-way bill requirements'
+//     ]
+//   },
+//   {
+//     title: 'Payroll Administrator',
+//     location: 'Bangalore, Karnataka',
+//     type: 'Full-Time',
+//     description: 'Handle end-to-end payroll processing and ensure compliance with all statutory requirements.',
+//     requirements: [
+//       'Bachelors degree in accounting or finance',
+//       '3+ years of payroll processing experience',
+//       'Experience with payroll software',
+//       'Knowledge of PF, ESI, and Professional Tax'
+//     ]
+//   },
+//   {
+//     title: 'Tax Filing Specialist',
+//     location: 'Hyderabad, Telangana',
+//     type: 'Full-Time',
+//     description: 'Process income tax returns for individuals and businesses with attention to detail and accuracy.',
+//     requirements: [
+//       'Bachelors degree in accounting or finance',
+//       '2+ years of tax filing experience',
+//       'Knowledge of latest tax regulations',
+//       'Experience with tax filing software'
+//     ]
+//   },
+//   {
+//     title: 'Corporate Tax Advisor',
+//     location: 'Remote',
+//     type: 'Contract',
+//     description: 'Provide strategic tax planning advice to corporate clients to optimize their tax positions.',
+//     requirements: [
+//       'CA/CMA with specialization in corporate taxation',
+//       '5+ years of corporate tax advisory experience',
+//       'Knowledge of international tax practices',
+//       'Strong analytical and problem-solving skills'
+//     ]
+//   }
+// ];
+const jobOpenings =[]
 const Career = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,

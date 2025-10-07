@@ -4,26 +4,26 @@ import { useInView } from 'react-intersection-observer';
 import { MapPin, Building2, Code } from 'lucide-react';
 
 const branchData = [
-  {
-    name: 'DigiAgency Headquarters',
-    location: 'Silicon Valley, CA',
-    code: 'HQ001',
-  },
-  {
-    name: 'DigiAgency Innovation Hub',
-    location: 'New York City, NY',
-    code: 'NY002',
-  },
-  {
-    name: 'DigiAgency Tech Center',
-    location: 'Austin, TX',
-    code: 'TX003',
-  },
-  {
-    name: 'DigiAgency Creative Studio',
-    location: 'Los Angeles, CA',
-    code: 'LA004',
-  },
+  // {
+  //   name: 'DigiAgency Headquarters',
+  //   location: 'Silicon Valley, CA',
+  //   code: 'HQ001',
+  // },
+  // {
+  //   name: 'DigiAgency Innovation Hub',
+  //   location: 'New York City, NY',
+  //   code: 'NY002',
+  // },
+  // {
+  //   name: 'DigiAgency Tech Center',
+  //   location: 'Austin, TX',
+  //   code: 'TX003',
+  // },
+  // {
+  //   name: 'DigiAgency Creative Studio',
+  //   location: 'Los Angeles, CA',
+  //   code: 'LA004',
+  // },
 ];
 
 const Branches = () => {
@@ -63,7 +63,7 @@ const Branches = () => {
       </div>
 
       {/* Branches Table Section */}
-      <motion.div
+      {/* <motion.div
         ref={ref}
         initial={{ y: 20, opacity: 0 }}
         animate={inView ? { y: 0, opacity: 1 } : {}}
@@ -119,7 +119,7 @@ const Branches = () => {
             </table>
           </div>
         </div>
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 };
