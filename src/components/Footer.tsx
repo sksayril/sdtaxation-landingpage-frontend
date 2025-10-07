@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin, ArrowUpRight } from 'lucide-react';
-import billingPandaLogo from '/sdtaxationlogoremovebg.png';
+import billingPandaLogo from '/sdtaxationlogoremovebgsd.png';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <img src={billingPandaLogo} alt="S.D. Taxation Logo" className="h-12 w-12 object-contain" />
-              <h3 className="text-2xl font-bold text-white">S.D. Taxation Associate</h3>
+              <h3 className="text-2xl font-bold text-yellow-600 border border-black px-2 py-1 rounded-sm">S.D. Taxation Associate</h3>
             </div>
             <p className="text-sm">
               Providing expert taxation, HR, and payroll solutions since 2010.
