@@ -25,10 +25,15 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
-            <Link to="/" className="flex items-center space-x-2" onClick={handleNavigation}>
+            <a 
+              href="https://superadmin.sdtaxation.com/login" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 cursor-pointer"
+            >
               <img src={billingPandaLogo} alt="S.D. Taxation Logo" className="h-18 w-16 object-contain" />
               <span className="text-2xl font-bold text-yellow-600   rounded-sm">S.D. Taxation Associate</span>
-            </Link>
+            </a>
           </div>
           
           <div className="hidden md:flex items-center">
@@ -94,7 +99,7 @@ const Navbar = () => {
             
             {/* Glowing Login Button - Now opens external dashboard in new tab */}
             <a 
-              href="https://dashboard.sdtaxation.com" 
+              href="https://admin.sdtaxation.com/login" 
               target="_blank" 
               rel="noopener noreferrer"
               className="relative flex items-center space-x-1 px-4 py-2 bg-gradient-to-r from-orange-500 to-orange-600 text-white font-medium rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg group"
@@ -111,7 +116,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             {/* Mobile Login Button - Now opens external dashboard in new tab */}
             <a 
-              href="https://dashboard.sdtaxation.com" 
+              href="https://admin.sdtaxation.com/login" 
               target="_blank" 
               rel="noopener noreferrer"
               className="relative flex items-center mr-3 px-3 py-1 bg-gradient-to-r from-orange-500 to-orange-600 text-white text-sm font-medium rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg group"
